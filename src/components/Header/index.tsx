@@ -2,6 +2,7 @@ import type { FC } from 'react'
 import { GlobalOutlined, SearchOutlined } from '@ant-design/icons'
 import { MdOutlineTune } from 'react-icons/md'
 import { styles } from '../../utils/styles'
+import SearchModal from './SearchModal'
 
 const Header: FC = () => {
 	return (
@@ -42,7 +43,7 @@ const Header: FC = () => {
 								<MdOutlineTune className='text-primary text-2xl max-3xl:text-xl cursor-pointer' />
 							</div>
 						</div>
-						<SearchOutlined className='text-primary text-2xl max-3xl:text-xl cursor-pointer 2xl:hidden' />
+						<SearchModal />
 					</li>
 				</ul>
 			</nav>

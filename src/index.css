@@ -10,10 +10,9 @@
 
 .heroImage {
 	width: 100%;
-	height: 988px;
+	height: 100vh;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
 		url(./assets/images/hero-bg-image.jpg);
-	/* background-position: center; */
 	background-size: cover;
 	background-repeat: no-repeat;
 }
