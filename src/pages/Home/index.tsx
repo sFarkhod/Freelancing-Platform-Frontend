@@ -11,7 +11,6 @@ const Home = () => {
 			<PopularServices />
 			<CategoryFreelancer />
 			<LookForJob />
-			<div className='h-80'></div>
 			<Footer />
 		</div>
 	)

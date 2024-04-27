@@ -2,16 +2,16 @@ import type { FC } from 'react'
 
 const CategoryFreelancerCard: FC = () => {
 	return (
-		<div className='border-[1px] border-solid border-black rounded-2xl bg-primary px-[50px] py-[35px] relative'>
-			<h3 className='font-roboto font-semibold text-[30px] leading-[86%] text-[#e3e3e3]'>
+		<div className='border-[1px] border-solid border-black rounded-2xl bg-primary px-[50px] max-2xl:px-6 py-[35px] max-2xl:py-5 relative'>
+			<h3 className='font-roboto font-semibold text-[30px] max-2xl:text-[24px] leading-[86%] text-[#e3e3e3]'>
 				3D modeler
 			</h3>
-			<p className='font-roboto text-[30px] font-normal leading-[103%] text-[#363636] my-[30px]'>
-				<span className='bg-secondary leading-[40px]'>
+			<p className='font-roboto text-[30px] max-2xl:text-xl font-normal leading-[103%] text-[#363636] my-[30px] max-2xl:my-5'>
+				<span className='bg-secondary leading-[40px] max-2xl:leading-[10px]'>
 					Siz uchun top 3D modelar ro’yhatini tuzib qoydik
 				</span>
 			</p>
-			<div className='absolute right-[50px] bottom-[35px] cursor-pointer'>
+			<div className='absolute right-[50px] bottom-[35px] max-2xl:right-6 max-2xl:bottom-[10px] cursor-pointer'>
 				<svg
 					width='81'
 					height='21'
