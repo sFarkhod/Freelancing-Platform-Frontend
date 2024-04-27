@@ -16,3 +16,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
+.footer {
+	background: linear-gradient(360deg, #71cf00 0%, #fff 100%);
+}

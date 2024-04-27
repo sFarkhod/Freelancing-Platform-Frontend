@@ -7,12 +7,12 @@ const ServiceCard: FC = () => {
 			<img
 				src={servicesCardImage}
 				alt='service card img'
-				className='hover:shadow-cardImageShadow transition duration-300'
+				className='hover:shadow-cardImageShadow transition duration-300 cursor-pointer'
 			/>
 			<h3 className='font-roboto font-semibold text-[18px] leading-[120%] text-[#1F2937] mt-1'>
 				Webb-Dizayner
 			</h3>
-			<p className='font-roboto font-light text-[10px] leading-[200%] text-[#1F2937]'>
+			<p className='font-roboto font-light text-[12px] leading-[200%] text-[#1F2937]'>
 				Kop yillik tajribali UI | UX dizaynerman.
 			</p>
 		</div>
