@@ -1,12 +1,12 @@
 import type { FC } from 'react'
 import Header from './components/Header'
-import Hero from './components/Hero'
+import Home from './pages/Home'
 
 const App: FC = () => {
 	return (
 		<>
 			<Header />
-			<Hero />
+			<Home />
 		</>
 	)
 }
