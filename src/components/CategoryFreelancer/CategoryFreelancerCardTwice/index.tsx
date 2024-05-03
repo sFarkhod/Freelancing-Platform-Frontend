@@ -13,15 +13,15 @@ const CategoryFreelancerCardSecond: FC = () => {
 			</p>
 			<div className='absolute right-[50px] bottom-[35px] max-2xl:right-6 max-2xl:bottom-[10px] cursor-pointer'>
 				<svg
-					width='81'
-					height='21'
+					width={81}
+					height={21}
 					viewBox='0 0 81 21'
 					fill='none'
 					xmlns='http://www.w3.org/2000/svg'
 				>
 					<path
-						fill-rule='evenodd'
-						clip-rule='evenodd'
+						fillRule='evenodd'
+						clipRule='evenodd'
 						d='M59.3036 20.7846L81 10.3923L59.3036 0V5.3923H0V14.3923H59.3036V20.7846Z'
 						fill='#494949'
 					/>
