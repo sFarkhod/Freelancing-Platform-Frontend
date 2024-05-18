@@ -3,6 +3,7 @@ import { GlobalOutlined, SearchOutlined } from '@ant-design/icons'
 import { MdOutlineTune } from 'react-icons/md'
 import { styles } from '../../utils/styles'
 import SearchModal from './SearchModal'
+import { Link } from 'react-router-dom'
 
 const Header: FC = () => {
 	return (
@@ -51,9 +52,11 @@ const Header: FC = () => {
 				<button className={`${styles.textStyle} pr-5 max-3xl:pr-0`}>
 					Tizimga kirish
 				</button>
-				<button className='px-8 h-[60px] max-3xl:h-[50px] bg-primary flex justify-center items-center rounded-[30px] text-white font-mako font-normal text-[20px] max-3xl:text-base leading-[33px] tracking-normal'>
-					Ro’yxatdan o’tish
-				</button>
+				<Link to='/role/user'>
+					<button className='px-8 h-[60px] max-3xl:h-[50px] bg-primary flex justify-center items-center rounded-[30px] text-white font-mako font-normal text-[20px] max-3xl:text-base leading-[33px] tracking-normal'>
+						Ro’yxatdan o’tish
+					</button>
+				</Link>
 				<div>
 					<GlobalOutlined className='text-primary text-2xl max-3xl:text-xl cursor-pointer' />
 				</div>
